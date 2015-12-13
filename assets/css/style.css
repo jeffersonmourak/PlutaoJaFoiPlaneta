@@ -1,0 +1,38 @@
+body{
+	background-image: url(../imgs/BG.jpg);
+	background-size: cover;
+}
+
+.large-header{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+
+.main-title{
+	position: absolute;
+	top: 43vh;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	font-weight: 300;
+	font-size: 50px;
+	letter-spacing: 7px;
+	line-height: 50px;
+}
+
+.main-title .small{
+	font-size: 20px;
+}
+
+.pluto{
+	position: absolute;
+	width: 300px;
+	top: calc(50vh - 125px);
+	left: calc(50% - 150px);
+}
+.pluto img{
+	width: 100%;
+	height: auto;
+}
